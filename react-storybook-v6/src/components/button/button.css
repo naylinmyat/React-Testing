@@ -1,0 +1,33 @@
+.button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+.small{
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+.medium{
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+.large{
+    padding: 1.6rem;
+    font-size: 1.4rem;
+}
+.black{
+    background: black;
+}
+.skyblue{
+    background: skyblue;
+}
+.red{
+    background: red;
+}
+.button:hover{
+    transition: all 0.4s;
+    background: yellowgreen;
+    color: black;
+}
