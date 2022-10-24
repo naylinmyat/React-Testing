@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { configureStore } from 'redux';
+import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
-const store = configureStore((state = [], action) => {
+const store = createStore((state = [], action) => {
   if(action.type === "ADD") return[...action, action.item];
   return state;
 });
